@@ -70,11 +70,9 @@ img {
 img {
     border: 0;
 }
-img[Attributes Style]
+img
 {
-    width: 230px
-;
-    height: 40px
+    width: 100%
 ;
 }
 element.style {
