@@ -4,10 +4,8 @@
     <link href="stylesheet.css" rel="StyleSheet"/>
     <script src="javascript.js"></script>
     <title>Grads of London</title>
-</head>
-<body>
-<header>
-    <P>GRADS OF LONDON</P>
+
+
     <div id="mySidenav" class="sidenav">
         <a href="Index.html">HOME</a>
         <a href="stories.html">STORIES</a>
@@ -24,11 +22,38 @@
 
     </button>
 
-
+</head>
+<body>
+<header>
+    <P>CONTACT US</P>
 
 </header>
 <br>
+<body>
 
+<form action="/Confirm.html">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" formaction="Confirm.html" value="Submit">
+    <input type="reset" value="Clear">
+
+</form>
+</div>
+</body>
 
 
 
