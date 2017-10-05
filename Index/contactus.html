@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link href="stylesheet.css" rel="StyleSheet"/>
+    <meta charset="UTF-8">
+    <link href="site.css" rel="StyleSheet"/>
+    <link href="contact.css" rel="StyleSheet"/>
     <script src="javascript.js"></script>
     <title>Grads of London</title>
 
-
+</head>
+<header>
     <div id="mySidenav" class="sidenav">
         <a href="Index.html">HOME</a>
         <a href="stories.html">STORIES</a>
@@ -21,34 +24,30 @@
         <div></div>
 
     </button>
-
-</head>
-<body>
-<header>
-    <P>CONTACT US</P>
-
+    <p>CONTACT US</p>
 </header>
+
 <br>
 <body>
-
-<form action="/Confirm.html">
-    <label for="fname">First Name</label>
+<div class="form">
+<form action="/confirm.html">
+    <label class="fname" for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-    <label for="lname">Last Name</label>
+    <label class="lname" for="lname">Last Name</label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-    <label for="country">Country</label>
+    <label class="country" for="country">Country</label>
     <select id="country" name="country">
         <option value="australia">Australia</option>
         <option value="canada">Canada</option>
         <option value="usa">USA</option>
     </select>
 
-    <label for="subject">Subject</label>
+    <label class="subject" for="subject">Subject</label>
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-    <input type="submit" formaction="Confirm.html" value="Submit">
+    <input type="submit" formaction="confirm.html" value="Submit">
     <input type="reset" value="Clear">
 
 </form>
