@@ -62,6 +62,21 @@ input[type=reset] {
 .lname{
     color: #FFFFFF;
 }
-.fname{
+.fname {
     color: #FFFFFF;
 }
+
+.title {
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 39px;
+}
+
+.contact{
+    color: #FFFFFF;
+}
+
+header{
+    margin:-20px;
+}
+

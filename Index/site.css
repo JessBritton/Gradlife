@@ -55,6 +55,23 @@
     transition: margin-right.5s;
     padding: 20px;
 }
+.deskNavContact a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFFFFF; /* hover over colour (before) */
+    transition: 0.3s;
+    font-family: Apple Chancery;
+}
+#main {
+    transition: margin-right .5s;
+    padding: 20px;
+}
+.deskNavContact{
+    background-color: black;
+    margin-top: -50px;
+    text-align: right;
+}
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
