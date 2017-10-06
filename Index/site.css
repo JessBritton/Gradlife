@@ -71,6 +71,7 @@
     background-color: black;
     margin-top: -50px;
     text-align: right;
+    margin-right: 40px;
 }
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
