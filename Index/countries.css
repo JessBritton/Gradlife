@@ -1,0 +1,57 @@
+.title {
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 39px;
+}
+
+header{
+    margin:-20px;
+}
+
+
+div.tablec{
+  text-align: center;
+}
+table{
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: -70px;
+}
+th, td {
+    padding: 20px;
+}
+img.map {
+     vertical-align: middle;
+ }
+img.map {
+    border: 0;
+}
+img.map
+{
+    width: 100%;
+    opacity: 0.3;
+
+}
+img.map{
+  padding-top: 15px;
+}
+a {
+    background-color: #transparent;
+}
+.travels{
+  position: absolute;
+   top: 35%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: #FFFFFF;
+   font-size: 148px;
+}
+.description{
+  position: absolute;
+   top: 60%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: #FFFFFF;
+   font-size: 30px;
+}
