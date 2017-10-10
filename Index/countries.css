@@ -17,9 +17,12 @@ table{
   display: inline-block;
   vertical-align: middle;
   margin-left: -70px;
+  align-items: center;
 }
 th, td {
     padding: 20px;
+    transition: .3s ease;
+    backface-visibility: hidden;
 }
 img.map {
      vertical-align: middle;
@@ -34,7 +37,7 @@ img.map
 
 }
 img.map{
-  padding-top: 15px;
+  padding-top: 40px;
 }
 a {
     background-color: #transparent;
@@ -54,4 +57,37 @@ a {
    transform: translate(-50%, -50%);
    color: #FFFFFF;
    font-size: 30px;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.test:hover .img {
+  opacity: 0.3;
+
+}
+
+.test:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.test{
+    position: relative;
+    width: 50%;
+}
+.test1{
+  transition: .3s ease;
+  backface-visibility: hidden;
 }
