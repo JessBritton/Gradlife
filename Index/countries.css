@@ -70,13 +70,14 @@ a {
   -ms-transform: translate(-50%, -50%)
 }
 
-.test:hover .img {
+img.test1:hover {
   opacity: 0.3;
+
 
 }
 
 .test:hover .middle {
-  opacity: 1;
+  opacity: 0.8;
 }
 
 .text {
