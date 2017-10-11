@@ -67,13 +67,12 @@ a {
   top: 50%;
   left: 100%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
+  -ms-transform: translate(-50%, -50%);
 }
 
 img.test1:hover {
   opacity: 0.3;
-
-
+  filter:grayscale();
 }
 
 .test:hover .middle {
@@ -85,6 +84,7 @@ img.test1:hover {
   color: black;
   font-size: 16px;
   padding: 16px 32px;
+  border-radius: 25px;
 }
 .test{
     position: relative;

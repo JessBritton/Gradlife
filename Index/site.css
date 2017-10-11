@@ -1,5 +1,5 @@
 /* NAVAGATION MENU*/
-.sidenav {
+/*.sidenav {
     width: auto;
     height: 100%;
     max-width: 0;
@@ -13,30 +13,30 @@
     transition: 0.5s;
 }
 
-/* The navigation menu links */
+
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #FFFFFF; /* hover over colour (before) */
+    color: #FFFFFF;
     display: block;
     transition: 0.3s;
     font-family: Apple Chancery;
 }
 
-/* When you mouse over the navigation links, change their color */
+
 .sidenav a:hover, .offcanvas a:focus{
     color: #D3D3D3;
 }
 
-/* Position and style the close button (top right corner) */
+
 .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-}
+} */
 
 .deskNav{
     background-color: #000000;
@@ -82,13 +82,13 @@
     .deskNav {display: none;}
     .cleanButton {display: inline-block;}
 }*/
-.cleanButton div {
+/*.cleanButton div {
     width: 35px;
     height: 5px;
     background-color: #000000;
     margin: 6px 0;
 
-}
+} */
 /*.cleanButton {
     display: none;
     background:none;
