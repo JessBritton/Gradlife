@@ -1,42 +1,3 @@
-/* NAVAGATION MENU*/
-/*.sidenav {
-    width: auto;
-    height: 100%;
-    max-width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #000000;
-    overflow-x: hidden;
-    padding-top: 60px;
-    transition: 0.5s;
-}
-
-
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #FFFFFF;
-    display: block;
-    transition: 0.3s;
-    font-family: Apple Chancery;
-}
-
-
-.sidenav a:hover, .offcanvas a:focus{
-    color: #D3D3D3;
-}
-
-
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-} */
 
 .deskNav{
     background-color: #000000;
@@ -62,6 +23,8 @@
     color: #FFFFFF; /* hover over colour (before) */
     transition: 0.3s;
     font-family: Apple Chancery;
+    max-width: 100%;
+    font-size:1.5vw;
 }
 #main {
     transition: margin-right .5s;
@@ -69,33 +32,17 @@
 }
 .deskNavContact{
     background-color: black;
-    margin-top: -50px;
+    margin-top: -3.3vw;
     text-align: right;
     margin-right: 40px;
+    max-width: 100%;
+    font-size:2vw;
 }
 @media screen and (max-height: 450px) {
     .deskNavnav {padding-top: 15px;}
     .deskNav a {font-size: 18px;}
 }
 
-/*@media (max-width: 300px) {
-    .deskNav {display: none;}
-    .cleanButton {display: inline-block;}
-}*/
-/*.cleanButton div {
-    width: 35px;
-    height: 5px;
-    background-color: #000000;
-    margin: 6px 0;
-
-} */
-/*.cleanButton {
-    display: none;
-    background:none;
-    border:none;
-    font-size:1em;
-    color:#000000;
-}*/
 
 div {
     display: block;

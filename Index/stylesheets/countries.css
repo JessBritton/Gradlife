@@ -3,12 +3,12 @@
     color: #FFFFFF;
     margin-left: 39px;
     max-width: 100%;
+    font-size: 2vw;
 }
 
 header{
     margin:-20px;
 }
-
 
 div.tablec{
   text-align: center;
@@ -19,10 +19,11 @@ table{
   text-align: center;
   display: inline-block;
   vertical-align: middle;
-  margin-left: -70px;
+  margin-left: 20.7vw;
   align-items: center;
   margin-right: 20%;
   max-width: 100%;
+  max-height: 100%;
 }
 th, td {
     padding: 20px;
@@ -54,7 +55,7 @@ a {
    left: 50%;
    transform: translate(-50%, -50%);
    color: #FFFFFF;
-   font-size: 148px;
+   font-size:10vw
 }
 .description{
   position: absolute;
@@ -62,7 +63,7 @@ a {
    left: 50%;
    transform: translate(-50%, -50%);
    color: #FFFFFF;
-   font-size: 30px;
+   font-size:2.2vw;
 
 }
 .middle {
@@ -74,7 +75,10 @@ a {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-
+img.test1{
+  height: 350px;
+  width: 250px;
+}
 img.test1:hover {
   opacity: 0.3;
   filter:grayscale();
