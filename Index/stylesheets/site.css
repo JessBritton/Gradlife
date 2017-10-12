@@ -1,0 +1,95 @@
+
+.deskNav{
+    background-color: #000000;
+    margin: auto;
+}
+
+.deskNav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFFFFF; /* hover over colour (before) */
+    transition: 0.3s;
+    font-family: Apple Chancery;
+    font-size:1.5vw;
+}
+#main {
+    transition: margin-right.5s;
+    padding: 20px;
+}
+.deskNavContact a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFFFFF; /* hover over colour (before) */
+    transition: 0.3s;
+    font-family: Apple Chancery;
+    max-width: 100%;
+    font-size:1.5vw;
+}
+#main {
+    transition: margin-right .5s;
+    padding: 20px;
+}
+.deskNavContact{
+    background-color: black;
+    margin-top: -3.3vw;
+    text-align: right;
+    margin-right: 40px;
+    max-width: 100%;
+    font-size:2vw;
+}
+@media screen and (max-height: 450px) {
+    .deskNavnav {padding-top: 15px;}
+    .deskNav a {font-size: 18px;}
+}
+
+
+div {
+    display: block;
+}
+#logo {
+    position: absolute;
+    left: 10;
+    top: 16;
+    font-size: 15px;
+
+}
+div.container1 a {
+    color: #FFFFFF;
+    font-size: 15px;
+    margin: 6px;
+    padding: 6px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+}
+
+meta {
+    display: none;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+style{
+    display: none;
+}
+head {
+    display: none;
+}
+title {
+    display: none;
+}
+body {
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    line-height: 1.4;
+    background-color: #000000;
+    text-align: center;
+}
