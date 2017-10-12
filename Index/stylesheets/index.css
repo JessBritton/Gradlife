@@ -1,6 +1,8 @@
 .title{
     text-align: center;
     margin: -1px;
+    max-width: 100%;
+    font-size: 3vw;
 
 }img {
      vertical-align: middle;

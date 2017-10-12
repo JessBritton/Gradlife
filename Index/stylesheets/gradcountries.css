@@ -5,6 +5,7 @@
     color: #000000; /* hover over colour (before) */
     transition: 0.3s;
     font-family: Apple Chancery;
+    font-size:1.5vw;
 }
 #main {
     transition: margin-right .5s;
@@ -12,9 +13,11 @@
 }
 .deskNavContact{
     background-color: white;
-    margin-top: -50px;
+    margin-top: -3.3vw;
     text-align: right;
     margin-right: 40px;
+    max-width: 100%;
+    font-size:2vw;
 }
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
@@ -27,6 +30,8 @@ header{
     text-align: left;
     color: #000000;
     margin-left: 39px;
+    max-width: 100%;
+    font-size: 2vw;
 }
 img.map1 {
      vertical-align: middle;
@@ -50,7 +55,7 @@ img.map1 {
    left: 50%;
    transform: translate(-50%, -50%);
    color: #000000;
-   font-size: 148px;
+   font-size: 10vw;
 }
 .description{
   position: absolute;
@@ -66,4 +71,13 @@ body {
     line-height: 1.4;
     background-color: #FFFFFF;
     text-align: center;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #666;
+}
+img.USA1{
+  width: 25vw;
+  height: 30vw;
+  
 }

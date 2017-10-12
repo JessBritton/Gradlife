@@ -11,6 +11,7 @@
     color: #FFFFFF; /* hover over colour (before) */
     transition: 0.3s;
     font-family: Apple Chancery;
+    font-size:1.5vw;
 }
 #main {
     transition: margin-right.5s;
