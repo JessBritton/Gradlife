@@ -6,22 +6,16 @@
 
 }img {
      vertical-align: middle;
+     border: 0;
+     width: 100%;
  }
-img {
-    border: 0;
-}
-img
-{
-    width: 100%;
 
-}
 a {
     color: aqua;
     text-decoration: none;
-}
-a {
     background-color: #transparent;
 }
+
 header {
     background-color: #FFFFFF;
 }

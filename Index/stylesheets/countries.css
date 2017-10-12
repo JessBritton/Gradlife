@@ -33,19 +33,12 @@ th, td {
 }
 img.map {
      vertical-align: middle;
- }
-img.map {
     border: 0;
-}
-img.map
-{
     width: 100%;
     opacity: 0.3;
-
-}
-img.map{
   padding-top: 40px;
 }
+
 a {
     background-color: #transparent;
 }

@@ -35,18 +35,10 @@ header{
 }
 img.map1 {
      vertical-align: middle;
- }
-img.map1 {
     border: 0;
-}
-img.map1
-{
     width: 100%;
     height: 700px;
     opacity: 0.2;
-
-}
-img.map1 {
   padding-top: -80px;
 }
 .travels{
@@ -71,13 +63,16 @@ body {
     line-height: 1.4;
     background-color: #FFFFFF;
     text-align: center;
-}
-body {
   font-family: 'Open Sans', sans-serif;
   color: #666;
 }
 img.USA1{
   width: 25vw;
   height: 30vw;
-  
+
+}
+img.USA2{
+  width: 17vw;
+  height: 15vw;
+
 }

@@ -13,10 +13,7 @@
     font-family: Apple Chancery;
     font-size:1.5vw;
 }
-#main {
-    transition: margin-right.5s;
-    padding: 20px;
-}
+
 .deskNavContact a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -48,13 +45,7 @@
 div {
     display: block;
 }
-#logo {
-    position: absolute;
-    left: 10;
-    top: 16;
-    font-size: 15px;
 
-}
 div.container1 a {
     color: #FFFFFF;
     font-size: 15px;
