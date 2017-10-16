@@ -72,8 +72,7 @@ img {
 }
 img
 {
-    width: 100%
-;
+    width: 100%;
 }
 element.style {
     color: aqua;
@@ -131,65 +130,29 @@ element.style {
     transition: 0.3s;
     font-family: Apple Chancery;
 }
-#main {
++#main {
     transition: margin-right.5s;
     padding: 20px;
 }
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-}
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+    }
 
-@media (max-width: 300px) {
-    .deskNav {display: none;}
-    .cleanButton {display: inline-block;}
-}
++@media (max-width: 300px) {
+        .deskNav {display: none;}
+        .cleanButton {display: inline-block;}
+    }
 .cleanButton div {
     width: 35px;
     height: 5px;
     background-color: #000000;
     margin: 6px 0;
 }
-/*.cleanButton {
+.cleanButton{
     display: none;
     background:none;
     border:none;
     font-size:1em;
     color:#000000;
-}*/
-
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-    width: auto; /* Full width */
-    padding: 10px; /* Some padding */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 10px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
-
-}
-
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
-    background-color: #FF7F50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-    background-color: #000000;
-}
-
-input[type=reset] {
-    background-color: #FF7F50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
 }
