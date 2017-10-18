@@ -66,16 +66,6 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #666;
 }
-img.USA1{
-  width: 25vw;
-  height: 30vw;
-
-}
-img.USA2{
-  width: 17vw;
-  height: 15vw;
-
-}
 p.blog {
   text-align: center;
 font-size: 1.2vw;
@@ -87,49 +77,135 @@ p.name {
   font-size: 0.8vw;
   margin-right: 5vw;
 }
+/*USA*/
+  img.USA1{
+    width: 25vw;
+    height: 30vw;
 
-img.USA3{
-  width: 25vw;
-  height: 20vw;
+  }
+  img.USA2{
+    width: 17vw;
+    height: 15vw;
 
-}
-img.USA4{
-  width: 25vw;
-  height: 30vw;
-}
-img.USA5{
-  width: 25vw;
-  height: 17vw;
-}
-img.USA6{
-  width: 25vw;
-  height: 17vw;
-}
-img.china1{
-  width: 25vw;
-  height: 17vw;
-}
-img.china1{
-  width: 25vw;
-  height: 17vw;
-}
-img.china2{
-  width: 25vw;
-  height: 17vw;
-}
-img.china3{
-  width: 25vw;
-  height: 17vw;
-}
-img.china4{
-  width: 20vw;
-  height: 15vw;
-}
-img.china5{
-  width: 25vw;
-  height: 30vw;
-}
-img.china6{
-  width: 24vw;
-  height: 26vw;
-}
+  }
+  img.USA3{
+    width: 25vw;
+    height: 20vw;
+
+  }
+  img.USA4{
+    width: 25vw;
+    height: 30vw;
+  }
+  img.USA5{
+    width: 25vw;
+    height: 17vw;
+  }
+  img.USA6{
+    width: 25vw;
+    height: 17vw;
+  }
+/* China */
+  img.china1{
+    width: 25vw;
+    height: 17vw;
+  }
+  img.china1{
+    width: 25vw;
+    height: 17vw;
+  }
+  img.china2{
+    width: 25vw;
+    height: 17vw;
+  }
+  img.china3{
+    width: 25vw;
+    height: 17vw;
+  }
+  img.china4{
+    width: 20vw;
+    height: 15vw;
+  }
+  img.china5{
+    width: 25vw;
+    height: 30vw;
+  }
+  img.china6{
+    width: 24vw;
+    height: 26vw;
+  }
+/* germany*/
+  img.germany1{
+    width:25vw;
+    height:30vw;
+  }
+  img.germany2{
+    width:25vw;
+    height:20vw;
+  }
+  img.germany3{
+    width:20vw;
+    height:20vw;
+  }
+  img.germany4{
+    width:25vw;
+    height:20vw;
+  }
+  img.germany5{
+    width:25vw;
+    height:20vw;
+  }
+  img.germany6{
+    width:28vw;
+    height:20vw;
+  }
+/* india */
+  img.india1{
+    width:28vw;
+    height:20vw;
+  }
+  img.india2{
+    width:20vw;
+    height:30vw;
+  }
+  img.india3{
+    width:28vw;
+    height:20vw;
+  }
+  img.india4{
+    width:28vw;
+    height:20vw;
+  }
+  img.india5{
+    width:28vw;
+    height:20vw;
+  }
+  img.india6{
+    width:20vw;
+    height:30vw;
+  }
+/* russia */
+  img.russia2{
+    width:28vw;
+    height:20vw;
+  }
+  img.russia1{
+    width:20vw;
+    height:30vw;
+  }
+  img.russia3{
+    width:28vw;
+    height:20vw;
+  }
+  img.russia4{
+    width:20vw;
+    height:30vw;
+  }
+  img.russia5{
+    width:20vw;
+    height:30vw;
+  }
+  img.russia6{
+    width:25vw;
+    height:20vw;
+  }
