@@ -24,3 +24,10 @@ a {
 header {
     background-color: #FFFFFF;
 }
+
+img {
+	max-width: 480px;
+	width: 100%;
+	height: auto;
+        display: block;
+    }
