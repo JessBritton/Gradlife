@@ -1,0 +1,70 @@
+.title {
+    text-align: left;
+    color: #000000;
+    margin-left: 39px;
+    max-width: 100%;
+    font-size: 2vw;
+}
+
+header{
+    margin:-20px;
+    background-color: #FFFFFF;
+}
+
+.description{
+  position: absolute;
+   top: 60%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: #000000;
+   font-size:2.2vw;
+
+}
+
+
+.about{
+  font-size:10vw;
+  font-family: "GT Sectra Display Light";
+  color: #000000;
+}
+.info{
+  font-size:2vw;
+  font-family: "GT Sectra Display Light";
+  color: #000000;
+  text-align: center;
+  margin-left: 55px;
+  margin-right: 50px;
+
+}
+
+.deskNavContact a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000; /* hover over colour (before) */
+    transition: 0.3s;
+    font-family: "GT Sectra Display Light";
+    max-width: 100%;
+    font-size:1.5vw;
+}
+#main {
+    transition: margin-right .5s;
+    padding: 20px;
+}
+.deskNavContact{
+    background-color: black;
+    margin-top: -3.3vw;
+    text-align: right;
+    margin-right: 40px;
+    max-width: 100%;
+    font-size:2vw;
+    font-family: "GT Sectra Display Light";
+    background-color:white;
+}
+@media screen and (max-height: 450px) {
+    .deskNavnav {padding-top: 15px;}
+    .deskNav a {font-size: 18px;}
+}
+body{
+  background-color: #FFFFFF;
+}
