@@ -104,9 +104,11 @@ input[type=reset] {
 }
 
 .contact{
-    color: #000000;
-    margin-top: -15px;
-    font-size:10vw;
+   top: 35%;
+   left: 50%;
+   color: #000000;
+   font-size:8vw;
+   font-family: "GT Sectra Display Light";
 }
 
 header{

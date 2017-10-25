@@ -68,3 +68,21 @@ header{
 body{
   background-color: #FFFFFF;
 }
+.test1{
+  transition: .3s ease;
+  backface-visibility: hidden;
+border-radius:50%;
+}
+img.test1{
+  height: 30vw;
+  width: 20vw;
+}
+.text {
+  background-color: white;
+  color: black;
+  font-size: 3vw;
+}
+.quote{
+  font-size: 1.5vw;
+  font-family: "GT Sectra Display";
+}
