@@ -25,22 +25,7 @@ header {
   width: 250px;
   border-radius: 50%;
 }
-.banner{
-  height: 350px;
-  width: 100%;
-  background-color: #000000;
-}
 
-.we{
-  position: absolute;
-   top: 65%;
-   left: 50%;
-   color: #FFFFFF;
-   font-size:7vw;
-   float: left;
-   font-weight: bold;
-   font-family: Amatic SC;
-}
 
 .deskNav{
     background-color: #000000;
