@@ -104,13 +104,32 @@ input[type=reset] {
 }
 
 .contact{
+    position: absolute;
    top: 35%;
-   left: 50%;
+   left: 32%;
    color: #000000;
    font-size:8vw;
    font-family: "GT Sectra Display Light";
+   ransform: translate(-50%, -50%);
+}
+.form{
+    position: absolute;
+   top: 35%;
+   left: 43%;
+   color: #000000;
+   font-size:1vw;
+   font-family: "GT Sectra Display Light";
+   ransform: translate(-50%, -50%);
 }
 
 header{
     margin:-20px;
+}
+img.scroll{
+  vertical-align: middle;
+  border: 0;
+  width: 50vw;
+  height: 60vw;
+  opacity: 0.7;
+  margin-top: 1vw;
 }
