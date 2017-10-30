@@ -100,7 +100,8 @@ input[type=reset] {
 .title {
     text-align: left;
     color: #000000;
-    margin-left: 39px;
+    margin-left: 45px;
+    font-size: 2vw;
 }
 
 .contact{
