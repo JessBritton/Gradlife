@@ -1,43 +1,43 @@
 .deskNavContact a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #000000; /* hover over colour (before) */
-    transition: 0.3s;
-    font-family: "GT Sectra Display Light";
-    max-width: 100%;
-    font-size:1.5vw;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000; /* hover over colour (before) */
+  transition: 0.3s;
+  font-family: "GT Sectra Display Light";
+  max-width: 100%;
+  font-size:1.5vw;
 }
 #main {
-    transition: margin-right .5s;
-    padding: 20px;
+  transition: margin-right .5s;
+  padding: 20px;
 }
 .deskNavContact{
-    background-color: black;
-    margin-top: -3.3vw;
-    text-align: right;
-    margin-right: 40px;
-    max-width: 100%;
-    font-size:2vw;
-    font-family: "GT Sectra Display Light";
-    background-color:white;
+  background-color: black;
+  margin-top: -3.3vw;
+  text-align: right;
+  margin-right: 40px;
+  max-width: 100%;
+  font-size:2vw;
+  font-family: "GT Sectra Display Light";
+  background-color:white;
 }
 @media screen and (max-height: 450px) {
-    .deskNavnav {padding-top: 15px;}
-    .deskNav a {font-size: 18px;}
+  .deskNavnav {padding-top: 15px;}
+  .deskNav a {font-size: 18px;}
 }
 body{
   background-color: #FFFFFF;
-      font-family: "Helvetica Neue";
+  font-family: "Helvetica Neue";
 }
 /*columns below each other instead of side by side on small screens */
 .title {
-    text-align: left;
-    color: #000000;
-    margin-left: 39px;
-    max-width: 100%;
-    font-size: 2vw;
-    font-family: "GT Sectra Display Light";
+  text-align: left;
+  color: #000000;
+  margin-left: 39px;
+  max-width: 100%;
+  font-size: 2vw;
+  font-family: "GT Sectra Display Light";
 }
 img.map1{
   vertical-align: middle;
@@ -49,24 +49,24 @@ img.map1{
 }
 
 header{
-    margin:-20px;
+  margin:-20px;
 }
 .travels{
   position: absolute;
-   top: 35%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   color: #000000;
-   font-size:10vw;
-   font-family: "GT Sectra Display Light";
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000000;
+  font-size:10vw;
+  font-family: "GT Sectra Display Light";
 }
 .description{
   position: absolute;
-   top: 60%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   color: #FFFFFF;
-   font-size:2.2vw;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFFFFF;
+  font-size:2.2vw;
 
 }
 .middle {
@@ -126,17 +126,17 @@ img.test1:hover {
 
 }
 .test{
-    position: relative;
-    width: 50%;
+  position: relative;
+  width: 50%;
 }
 .test1{
   transition: .3s ease;
   backface-visibility: hidden;
-border-radius:50%;
+  border-radius:50%;
 
 }
 
- @media (max-width:800px) {
+@media (max-width:800px) {
   .travels, .description, .test {
     width:100%;
   }
@@ -150,9 +150,9 @@ border-radius:50%;
 }
 p.blog {
   text-align: center;
-font-size: 1.2vw;
-margin-left: 3.5vw;
-margin-right: 5vw;
+  font-size: 1.2vw;
+  margin-left: 3.5vw;
+  margin-right: 5vw;
 }
 p.name {
   text-align: right;
@@ -162,61 +162,61 @@ p.name {
 
 /*
 @media (max-width: 650px) {
-    .column {
-        width: 100%;
-        display: block;
-    }
-  }
+.column {
+width: 100%;
+display: block;
+}
+}
 
 
-  .profile {
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
+.profile {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
 
 
 .quote {
-  padding: 0 16px;
+padding: 0 16px;
 }
 
 
 .quote::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
+content: "";
+clear: both;
+display: table;
 }
 
 .image {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-  border-radius:50%;
+opacity: 1;
+display: block;
+width: 100%;
+height: auto;
+transition: .5s ease;
+backface-visibility: hidden;
+border-radius:50%;
 }
 
 .middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
+transition: .5s ease;
+opacity: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%)
 }
 
 .container:hover .image {
-  opacity: 0.3;
+opacity: 0.3;
 }
 
 .container:hover .middle {
-  opacity: 1;
+opacity: 1;
 }
 
 .text {
-  background-color: #000000 ;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
-  font-family: helvetica neue;
+background-color: #000000 ;
+color: white;
+font-size: 16px;
+padding: 16px 32px;
+font-family: helvetica neue;
 }*/

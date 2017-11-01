@@ -1,77 +1,77 @@
 .deskNavContact a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #000000; /* hover over colour (before) */
-    transition: 0.3s;
-    font-family: "GT Sectra Display Light";
-    font-size:1.5vw;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000; /* hover over colour (before) */
+  transition: 0.3s;
+  font-family: "GT Sectra Display Light";
+  font-size:1.5vw;
 }
 #main {
-    transition: margin-right .5s;
-    padding: 20px;
+  transition: margin-right .5s;
+  padding: 20px;
 }
 .deskNavContact{
-    background-color: white;
-    margin-top: -3.3vw;
-    text-align: right;
-    margin-right: 40px;
-    max-width: 100%;
-    font-size:2vw;
-    font-family: "GT Sectra Display Light";
+  background-color: white;
+  margin-top: -3.3vw;
+  text-align: right;
+  margin-right: 40px;
+  max-width: 100%;
+  font-size:2vw;
+  font-family: "GT Sectra Display Light";
 }
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
 header{
-    margin:-20px;
+  margin:-20px;
 }
 .title {
-    text-align: left;
-    color: #000000;
-    margin-left: 39px;
-    max-width: 100%;
-    font-size: 2vw;
+  text-align: left;
+  color: #000000;
+  margin-left: 39px;
+  max-width: 100%;
+  font-size: 2vw;
 }
 img.map1 {
-     vertical-align: middle;
-    border: 0;
-    width: 100%;
-    height: 700px;
-    opacity: 0.2;
+  vertical-align: middle;
+  border: 0;
+  width: 100%;
+  height: 700px;
+  opacity: 0.2;
   padding-top: -80px;
 }
 .travels{
   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   color: #000000;
-   font-size: 10vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000000;
+  font-size: 10vw;
 }
 .description{
   position: absolute;
-   top: 60%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   color: #FFFFFF;
-   font-size: 30px;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFFFFF;
+  font-size: 30px;
 }
 body {
-    font-family: "Helvetica Neue";
-    font-size: 3vw;
-    line-height: 1.4;
-    background-color: #FFFFFF;
-    text-align: center;
+  font-family: "Helvetica Neue";
+  font-size: 3vw;
+  line-height: 1.4;
+  background-color: #FFFFFF;
+  text-align: center;
   font-family: 'Open Sans', sans-serif;
   color: #666;
 }
 p.blog {
   text-align: center;
-font-size: 1.2vw;
-margin-left: 3.5vw;
-margin-right: 5vw;
+  font-size: 1.2vw;
+  margin-left: 3.5vw;
+  margin-right: 5vw;
 }
 p.name {
   text-align: right;
@@ -79,163 +79,163 @@ p.name {
   margin-right: 5vw;
 }
 /*USA*/
-  img.USA1{
-    width: 25vw;
-    height: 30vw;
+img.USA1{
+  width: 25vw;
+  height: 30vw;
 
-  }
-  img.USA2{
-    width: 17vw;
-    height: 15vw;
+}
+img.USA2{
+  width: 17vw;
+  height: 15vw;
 
-  }
-  img.USA3{
-    width: 25vw;
-    height: 20vw;
+}
+img.USA3{
+  width: 25vw;
+  height: 20vw;
 
-  }
-  img.USA4{
-    width: 25vw;
-    height: 30vw;
-  }
-  img.USA5{
-    width: 25vw;
-    height: 17vw;
-  }
-  img.USA6{
-    width: 25vw;
-    height: 17vw;
-  }
+}
+img.USA4{
+  width: 25vw;
+  height: 30vw;
+}
+img.USA5{
+  width: 25vw;
+  height: 17vw;
+}
+img.USA6{
+  width: 25vw;
+  height: 17vw;
+}
 /* China */
-  img.china1{
-    width: 25vw;
-    height: 17vw;
-  }
-  img.china1{
-    width: 25vw;
-    height: 17vw;
-  }
-  img.china2{
-    width: 25vw;
-    height: 17vw;
-  }
-  img.china3{
-    width: 25vw;
-    height: 17vw;
-  }
-  img.china4{
-    width: 20vw;
-    height: 15vw;
-  }
-  img.china5{
-    width: 25vw;
-    height: 30vw;
-  }
-  img.china6{
-    width: 24vw;
-    height: 26vw;
-  }
+img.china1{
+  width: 25vw;
+  height: 17vw;
+}
+img.china1{
+  width: 25vw;
+  height: 17vw;
+}
+img.china2{
+  width: 25vw;
+  height: 17vw;
+}
+img.china3{
+  width: 25vw;
+  height: 17vw;
+}
+img.china4{
+  width: 20vw;
+  height: 15vw;
+}
+img.china5{
+  width: 25vw;
+  height: 30vw;
+}
+img.china6{
+  width: 24vw;
+  height: 26vw;
+}
 /* germany*/
-  img.germany1{
-    width:25vw;
-    height:30vw;
-  }
-  img.germany2{
-    width:25vw;
-    height:20vw;
-  }
-  img.germany3{
-    width:20vw;
-    height:20vw;
-  }
-  img.germany4{
-    width:25vw;
-    height:20vw;
-  }
-  img.germany5{
-    width:25vw;
-    height:20vw;
-  }
-  img.germany6{
-    width:28vw;
-    height:20vw;
-  }
+img.germany1{
+  width:25vw;
+  height:30vw;
+}
+img.germany2{
+  width:25vw;
+  height:20vw;
+}
+img.germany3{
+  width:20vw;
+  height:20vw;
+}
+img.germany4{
+  width:25vw;
+  height:20vw;
+}
+img.germany5{
+  width:25vw;
+  height:20vw;
+}
+img.germany6{
+  width:28vw;
+  height:20vw;
+}
 /* india */
-  img.india1{
-    width:28vw;
-    height:20vw;
-  }
-  img.india2{
-    width:20vw;
-    height:30vw;
-  }
-  img.india3{
-    width:28vw;
-    height:20vw;
-  }
-  img.india4{
-    width:28vw;
-    height:20vw;
-  }
-  img.india5{
-    width:28vw;
-    height:20vw;
-  }
-  img.india6{
-    width:20vw;
-    height:30vw;
-  }
+img.india1{
+  width:28vw;
+  height:20vw;
+}
+img.india2{
+  width:20vw;
+  height:30vw;
+}
+img.india3{
+  width:28vw;
+  height:20vw;
+}
+img.india4{
+  width:28vw;
+  height:20vw;
+}
+img.india5{
+  width:28vw;
+  height:20vw;
+}
+img.india6{
+  width:20vw;
+  height:30vw;
+}
 /* russia */
-  img.russia2{
-    width:28vw;
-    height:20vw;
-  }
-  img.russia1{
-    width:20vw;
-    height:30vw;
-  }
-  img.russia3{
-    width:28vw;
-    height:20vw;
-  }
-  img.russia4{
-    width:20vw;
-    height:30vw;
-  }
-  img.russia5{
-    width:20vw;
-    height:30vw;
-  }
-  img.russia6{
-    width:25vw;
-    height:20vw;
-  }
+img.russia2{
+  width:28vw;
+  height:20vw;
+}
+img.russia1{
+  width:20vw;
+  height:30vw;
+}
+img.russia3{
+  width:28vw;
+  height:20vw;
+}
+img.russia4{
+  width:20vw;
+  height:30vw;
+}
+img.russia5{
+  width:20vw;
+  height:30vw;
+}
+img.russia6{
+  width:25vw;
+  height:20vw;
+}
 /*australia*/
-  img.australia1{
-    width:20vw;
-    height:30vw;
-  }
-  img.australia2{
-    width:25vw;
-    height:20vw;
-  }
-  img.australia3{
-    width:30vw;
-    height:20vw;
-  }
-  img.australia4{
-    width:25vw;
-    height:20vw;
-  }
-  img.australia5{
-    width:20vw;
-    height:30vw;
-  }
-  img.australia6{
-    width:25vw;
-    height:20vw;
-  }
-  img.spain1{
-    width:25vw;
-    height:35vw;
-  }
+img.australia1{
+  width:20vw;
+  height:30vw;
+}
+img.australia2{
+  width:25vw;
+  height:20vw;
+}
+img.australia3{
+  width:30vw;
+  height:20vw;
+}
+img.australia4{
+  width:25vw;
+  height:20vw;
+}
+img.australia5{
+  width:20vw;
+  height:30vw;
+}
+img.australia6{
+  width:25vw;
+  height:20vw;
+}
+img.spain1{
+  width:25vw;
+  height:35vw;
+}

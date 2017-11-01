@@ -1,23 +1,23 @@
 .title {
-    text-align: left;
-    color: #000000;
-    margin-left: 39px;
-    max-width: 100%;
-    font-size: 2vw;
+  text-align: left;
+  color: #000000;
+  margin-left: 39px;
+  max-width: 100%;
+  font-size: 2vw;
 }
 
 header{
-    margin:-20px;
-    background-color: #FFFFFF;
+  margin:-20px;
+  background-color: #FFFFFF;
 }
 
 .description{
   position: absolute;
-   top: 60%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   color: #000000;
-   font-size:2.2vw;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000000;
+  font-size:2.2vw;
 
 }
 
@@ -27,9 +27,9 @@ header{
   font-family: "GT Sectra Display Light";
   color: #000000;
   position: absolute;
-   top: 35%;
-   left: 50%;
-   transform: translate(-50%, -50%);
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
 }
 .info{
@@ -43,32 +43,32 @@ header{
 }
 
 .deskNavContact a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #000000; /* hover over colour (before) */
-    transition: 0.3s;
-    font-family: "GT Sectra Display Light";
-    max-width: 100%;
-    font-size:1.5vw;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000; /* hover over colour (before) */
+  transition: 0.3s;
+  font-family: "GT Sectra Display Light";
+  max-width: 100%;
+  font-size:1.5vw;
 }
 #main {
-    transition: margin-right .5s;
-    padding: 20px;
+  transition: margin-right .5s;
+  padding: 20px;
 }
 .deskNavContact{
-    background-color: black;
-    margin-top: -3.3vw;
-    text-align: right;
-    margin-right: 40px;
-    max-width: 100%;
-    font-size:2vw;
-    font-family: "GT Sectra Display Light";
-    background-color:white;
+  background-color: black;
+  margin-top: -3.3vw;
+  text-align: right;
+  margin-right: 40px;
+  max-width: 100%;
+  font-size:2vw;
+  font-family: "GT Sectra Display Light";
+  background-color:white;
 }
 @media screen and (max-height: 450px) {
-    .deskNavnav {padding-top: 15px;}
-    .deskNav a {font-size: 18px;}
+  .deskNavnav {padding-top: 15px;}
+  .deskNav a {font-size: 18px;}
 }
 body{
   background-color: #FFFFFF;
@@ -76,7 +76,7 @@ body{
 .test1{
   transition: .3s ease;
   backface-visibility: hidden;
-border-radius:50%;
+  border-radius:50%;
 }
 img.test1{
   height: 30vw;
@@ -94,10 +94,10 @@ img.test1{
   margin-left: 20vw;
 }
 img.pic {
-     vertical-align: middle;
-    border: 0;
-    width: 100%;
-    opacity: 0.3;
+  vertical-align: middle;
+  border: 0;
+  width: 100%;
+  opacity: 0.3;
 }
 .email{
   font-size: 1vw;

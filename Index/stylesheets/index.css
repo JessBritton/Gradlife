@@ -1,38 +1,38 @@
 .title{
-    text-align: center;
-    margin: -1px;
-    max-width: 100%;
-    font-size: 3vw;
+  text-align: center;
+  margin: -1px;
+  max-width: 100%;
+  font-size: 3vw;
 
-}img {
-     vertical-align: middle;
-     border: 0;
-     width: 100%;
- }
+  }img {
+    vertical-align: middle;
+    border: 0;
+    width: 100%;
+  }
 
-a {
+  a {
     color: aqua;
     text-decoration: none;
     background-color: #transparent;
-}
+  }
 
-header {
+  header {
     background-color: #FFFFFF;
-}
-.image{
-  float: middle;
-  height: 350vw;
-  width: 250px;
-  border-radius: 50%;
-}
+  }
+  .image{
+    float: middle;
+    height: 350vw;
+    width: 250px;
+    border-radius: 50%;
+  }
 
 
-.deskNav{
+  .deskNav{
     background-color: #000000;
     margin: auto;
-}
+  }
 
-.deskNav a {
+  .deskNav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
@@ -40,9 +40,9 @@ header {
     transition: 0.3s;
     font-family: "GT Sectra Display Light";
     font-size:1.5vw;
-}
+  }
 
-.deskNavContact a {
+  .deskNavContact a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
@@ -51,12 +51,12 @@ header {
     font-family: "GT Sectra Display Light";
     max-width: 100%;
     font-size:1.5vw;
-}
-#main {
+  }
+  #main {
     transition: margin-right .5s;
     padding: 20px;
-}
-.deskNavContact{
+  }
+  .deskNavContact{
     background-color: black;
     margin-top: -3.3vw;
     text-align: right;
@@ -64,8 +64,8 @@ header {
     max-width: 100%;
     font-size:2vw;
     font-family: "GT Sectra Display Light";
-}
-@media screen and (max-height: 450px) {
+  }
+  @media screen and (max-height: 450px) {
     .deskNavnav {padding-top: 15px;}
     .deskNav a {font-size: 18px;}
-}
+  }
